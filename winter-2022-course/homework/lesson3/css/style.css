@@ -1,0 +1,46 @@
+p {
+    color: rgb(97, 101, 99);
+}
+
+.h-block {
+    color: burlywood;
+}
+
+h1.h-block {
+    color: rgb(228, 142, 142);
+}
+
+#content-table {
+    color: #a35dcf;
+}
+
+.simple-link {
+    text-decoration: none;
+    color: #5d9dcf;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #5dcf94;
+}
+
+p span {
+    color: #b30000;
+}
+
+h3.h-block,
+.sub-li-block {
+    color: rgb(75, 184, 146);
+}
+
+.li-block {
+    color: rgb(201, 201, 201);
+}
+
+.li-block > ul {
+    list-style: none;
+}
+
+.red-point ~ li {
+    color: rgb(223, 45, 45);
+}
