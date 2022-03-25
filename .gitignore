@@ -1,4 +1,3 @@
 .DS_Store
 .idea/
-winter-2022-course/lessons-materials/*
-!winter-2022-course/lessons-materials/*.zip
+winter-2022-course/lesson*/*materials
