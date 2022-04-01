@@ -1,0 +1,68 @@
+@import "null.css";
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+h1 {
+  font-size: 30px;
+  color: rgb(63, 62, 62);
+}
+
+h2 {
+  font-size: 25px;
+  color: rgb(37, 115, 187);
+  margin: 20px 0 20px 20px;
+}
+
+.block__item {
+  background-color: rgb(89, 131, 89);
+}
+.line__item {
+  background-color: rgb(113, 84, 113);
+}
+
+.task1 {
+  background-color: antiquewhite;
+  display: block;
+}
+
+.task2 {
+  background-color: rgb(177, 231, 231);
+  display: inline-block;
+  max-width: 200px;
+  max-height: 200px;
+  padding: 15px;
+  overflow: scroll;
+}
+
+.task3 {
+  display: inline-block;
+  margin: 0 0 30px 0;
+}
+
+.task4 {
+  background-color: rgb(206, 160, 160);
+  display: inline-block;
+  max-width: 100px;
+  margin: 0 30px 0 0;
+  padding: 10px;
+}
+
+.task5-d1 {
+  background-color: rgb(235, 207, 170);
+  padding: 30px;
+}
+
+.task5-d2 {
+  background-color: rgb(158, 158, 231);
+  padding: 30px;
+  margin: -60px 0 0 0;
+}
+
+.task6 {
+  background-color: rgb(180, 226, 180);
+  display: block;
+  max-height: 200px;
+  overflow: scroll;
+}
