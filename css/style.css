@@ -7,8 +7,17 @@ a {
   color: rgb(82, 145, 197);
 }
 
+a:hover {
+	color: rgb(175, 212, 208);
+}
+
+a:focus {
+	color: rgb(205, 101, 101);
+}
+
 li {
   list-style: none;
+  color: rgb(82, 145, 197);
 }
 
 .dobraccoon-logo {

@@ -18,52 +18,56 @@
 	src: url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
 
-header {
-	margin: 100px 350px 36px 87px;
+.wrapper {
+	margin: 100px 87px 0px 87px;
 }
 
-.car-repair-logo {
-	margin: 0px 16px 0px 0px;
-	width: 17px;
-	height: 16px;
+header {
+	max-width: 583px;
+	margin: 0px 0px 36px 0px;
 }
 
 .who-we-are {
-	width: 436px;
+	margin: 0 0 33px 0;
 	height: 17px;
-	margin: 0px 147px 33px 0px;
+}
+
+.car-repair-logo {
+	display: inline;
 }
 
 .who-we-are > p{
-	display: inline;
+	display: inline-block;
 	font-family: "Roboto-Bold", sans-serif;
 	font-size: 12px;
 	text-transform: uppercase;
 	color: #4B4B4B;
-	/* line-height: 24px; */
-	width: 450px;
-	height: 17px;
+	letter-spacing: 2.5px;
+	line-height: 24px;
 }
+
 header > h1{
 	font-family: "Roboto-Black", sans-serif;
 	font-size: 36px;
-	width: 583px;
-	height: 84px;
+	width: 100%;
+	height: auto;
 	line-height: 42px;
 	color: #02133C;
 }
 
 .description {
-	margin: 0px 87px 54px 87px;
 	font-family: "Roboto-Regular", sans-serif;
-	width: 846px;
-	height: 76px;
 	font-size: 16px;
+	width: 100%;
+	height: auto;
 	line-height: 24px;
 	color: #4B4B4B;
+	margin: 0px 0px 54px 0px;
+	padding: 0px 60px 0px 0px;
 }
 
 .engine-image {
 	display: block;
-	margin: 0px 87px 110px 87px;
+	width: 100%;
+	height: auto;
 }
