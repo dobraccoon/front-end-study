@@ -1,0 +1,42 @@
+@import "null.css";
+
+@font-face {
+	font-family: Roboto-Regular;
+	font-weight: bold;
+	src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: Roboto-Black;
+	font-weight: bold;
+	src: url("../fonts/Roboto/Roboto-Black.ttf") format("truetype");
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 36px 210px 66px 210px;
+}
+
+.service-block {
+	max-width: 324px;
+	min-height: 340px;
+	background-color: #FFFFFF;
+	margin: 0px 24px 24px 0px;
+	padding: 50px 44px 50px 43px;
+}
+
+
+.service-block > h2 {
+	font-family: "Roboto-Black", sans-serif;
+	font-size: 19px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.service-block > p {
+	font-family: "Roboto-Roboto-Regular", sans-serif;
+}
