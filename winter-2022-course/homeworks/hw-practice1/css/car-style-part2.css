@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: Roboto-Regular;
-	font-weight: bold;
+	font-weight: normal;
 	src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 
@@ -21,7 +21,7 @@ body {
 	margin: 36px 210px 66px 210px;
 }
 
-.service-block {
+.white-service-block {
 	max-width: 324px;
 	min-height: 340px;
 	background-color: #FFFFFF;
@@ -29,14 +29,26 @@ body {
 	padding: 50px 44px 50px 43px;
 }
 
+.inner-service-block > img {
+	display: block;
+	margin: 0px 86px 0px 88px;
+}
 
-.service-block > h2 {
+.inner-service-block > h2 {
+	margin: 33px 0px 0px 0px;
 	font-family: "Roboto-Black", sans-serif;
 	font-size: 19px;
 	line-height: 26px;
 	text-align: center;
+	color: #02133C;
 }
 
-.service-block > p {
-	font-family: "Roboto-Roboto-Regular", sans-serif;
+.inner-service-block > p {
+	font-family: "Roboto-Regular", sans-serif;
+	font-size: 16px;
+	margin: 20px 0px 0px 0px;
+	text-align: center;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4B4B4B;
 }
