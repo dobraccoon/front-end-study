@@ -30,7 +30,7 @@ header {
 
 .who-we-are {
 	margin: 0 0 33px 0;
-	height: 17px;
+	min-height: 17px;
 }
 
 .car-repair-logo {
