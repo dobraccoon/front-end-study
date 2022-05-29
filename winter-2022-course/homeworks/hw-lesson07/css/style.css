@@ -1,1 +1,10 @@
 @import "null.css";
+
+.make-an-appointment {
+	height: auto;
+	min-width: 100%;
+	background-image: url("../img/BG.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: block;
+}
