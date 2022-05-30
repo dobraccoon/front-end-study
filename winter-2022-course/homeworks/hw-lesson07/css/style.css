@@ -1,10 +1,37 @@
 @import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
 
-.make-an-appointment {
-	height: auto;
-	min-width: 100%;
-	background-image: url("../img/BG.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
-	display: block;
+.header-block {
+  background-image: url("../img/BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  min-height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  color: #ffff;
+}
+
+.auto-motive {
+  margin: 280px 647px 0px 210px;
+  max-width: 583px;
+  max-height: 112px;
+  font-size: 56px;
+  font-family: "Roboto";
+  line-height: 56px;
+}
+
+.appointment-button {
+  font-family: "Roboto";
+  font-weight: 700;
+  /* font-size: 12px; */
+  line-height: 24px;
+  align-items: center;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  margin: 48px 1019px 312px 210px;
+  width: 211px;
+  height: 48px;
+  background: #c40b0b;
 }
