@@ -23,7 +23,7 @@
 
 .appointment-button {
   border-radius: 2px;
-  margin: 4% 0 20% 11.5%;
+  margin: 4% 0 10% 11.5%;
   width: 211px;
   height: 48px;
   background: #c40b0b;
@@ -31,7 +31,7 @@
   background-repeat: no-repeat;
   background-position: right;
 }
-.appointment-button > p {
+.appointment-button > span {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 12px;
@@ -41,4 +41,43 @@
   letter-spacing: 0.15px;
   text-transform: uppercase;
   width: 169px;
+}
+
+.footer-block {
+  font-family: "Roboto";
+  color: #4b4b4b;
+}
+.contact-block {
+  width: 237px;
+  min-height: 199px;
+  margin: 5% 15% 0 60%;
+  font-size: 14px;
+}
+
+.contact-block > h3 {
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+}
+.contact-info {
+  margin-top: 28px;
+  font-weight: 400;
+}
+.contact-info > li {
+  margin-bottom: 16px;
+  padding-left: 34px;
+  background-repeat: no-repeat;
+}
+.address {
+	background-image: url("../img/location-icon.png");
+}
+.phone-number {
+	background-image: url("../img/phone-icon.png");
+}
+.email {
+	background-image: url("../img/email-icon.png");
+}
+.working-hours {
+	background-image: url("../img/timer-icon.png");
 }
