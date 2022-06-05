@@ -1,0 +1,67 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
+
+.promise-block {
+  font-style: normal;
+  margin: 4.5% 10.938% 122px 10.938%;
+  font-family: "Roboto";
+}
+
+.promise-block > h3 {
+  background-image: url("../img/overline-mark.svg");
+  background-repeat: no-repeat;
+  padding-left: 33px;
+  line-height: 24px;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #5d62b5;
+  align-items: center;
+  letter-spacing: 2.5px;
+}
+
+.promise-block > h2 {
+  margin-top: 33px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.promise-list > li {
+  display: inline-block;
+  max-width: 324px;
+  padding-left: 86px;
+  background-repeat: no-repeat;
+  margin-top: 68px;
+}
+
+.promise-list > li > *:first-child {
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 26px;
+  color: #f2726f;
+}
+
+.promise-list > li > *:nth-child(2) {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
+.promise-list > li:not(:last-child) {
+  margin-right: 24px;
+}
+.promise-list > li:nth-child(1) {
+  background-image: url("../img/dog_love_24x.svg");
+}
+
+.promise-list > li:nth-child(2) {
+  background-image: url("../img/dog_vet_24x.svg");
+}
+
+.promise-list > li:nth-child(3) {
+  background-image: url("../img/dog_stream_24x.svg");
+}
