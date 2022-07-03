@@ -2,82 +2,90 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap");
 
 .header-block {
-  background-image: url("../img/BG.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top right;
-  min-height: 100%;
-  max-width: 100%;
-  overflow: hidden;
-  color: #ffff;
+    background-image: url("../img/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    min-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    color: #ffff;
 }
 
 .auto-motive {
-  margin: 16% 20% 0px 11.5%;
-  max-width: 583px;
-  min-height: 112px;
-  font-size: 56px;
-  font-family: "Roboto";
-  line-height: 56px;
+    margin: 16% 20% 0px 11.5%;
+    max-width: 583px;
+    min-height: 112px;
+    font-size: 56px;
+    font-family: "Roboto";
+    line-height: 56px;
 }
 
 .appointment-button {
-  border-radius: 2px;
-  margin: 4% 0 10% 11.5%;
-  width: 211px;
-  height: 48px;
-  background: #c40b0b;
-  background-image: url("../img/button-treatment.png");
-  background-repeat: no-repeat;
-  background-position: right;
+    border-radius: 2px;
+    margin: 4% 0 10% 11.5%;
+    width: 211px;
+    height: 48px;
+    background: #c40b0b;
+    background-image: url("../img/button-treatment.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
+
 .appointment-button > span {
-  font-family: "Roboto";
-  font-weight: 700;
-  font-size: 12px;
-  color: #ffff;
-  line-height: 24px;
-  align-items: center;
-  letter-spacing: 0.15px;
-  text-transform: uppercase;
-  width: 169px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 12px;
+    color: #ffff;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
+    width: 169px;
 }
 
 .footer-block {
-  font-family: "Roboto";
-  color: #4b4b4b;
+    font-family: "Roboto";
+    color: #4b4b4b;
 }
+
 .contact-block {
-  width: 237px;
-  min-height: 199px;
-  margin: 2% 15% 0 60%;
-  font-size: 14px;
+    width: 237px;
+    min-height: 199px;
+    margin: 2% 15% 0 60%;
+    font-size: 14px;
 }
 
 .contact-block > h3 {
-  font-weight: 700;
-  line-height: 22px;
-  letter-spacing: 0.15px;
-  text-transform: uppercase;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.15px;
+    text-transform: uppercase;
 }
+
 .contact-info {
-  margin-top: 28px;
-  font-weight: 400;
+    margin-top: 28px;
+    font-weight: 400;
 }
+
 .contact-info > li {
-  margin-bottom: 16px;
-  padding-left: 34px;
-  background-repeat: no-repeat;
+    margin-bottom: 16px;
+    padding-left: 34px;
+    background-repeat: no-repeat;
 }
+
 .address {
-	background-image: url("../img/location-icon.png");
+    background-image: url("../img/location-icon.png");
 }
+
 .phone-number {
-	background-image: url("../img/phone-icon.png");
+    background-image: url("../img/phone-icon.png");
 }
+
 .email {
-	background-image: url("../img/email-icon.png");
+    background-image: url("../img/email-icon.png");
 }
+
 .working-hours {
-	background-image: url("../img/timer-icon.png");
+    background-image: url("../img/timer-icon.png");
 }

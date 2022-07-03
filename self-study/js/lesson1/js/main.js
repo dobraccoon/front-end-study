@@ -1,4 +1,4 @@
 setInterval(function () {
-  var messageInput = document.getElementById("message");
-  window.alert(messageInput.value);
+    var messageInput = document.getElementById("message");
+    window.alert(messageInput.value);
 }, 4000);
