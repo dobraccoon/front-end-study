@@ -2,71 +2,71 @@
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&display=swap");
 
 @font-face {
-	font-family: LibreBodoni;
-	font-weight: bold;
-	src: url("../fonts/LibreBodoni-Bold.otf") format("opentype");
+    font-family: LibreBodoni;
+    font-weight: bold;
+    src: url("../fonts/LibreBodoni-Bold.otf") format("opentype");
 }
 
 @font-face {
-	font-family: Rockwell;
-	font-weight: bold;
-	src: url("../fonts/Rockwell.ttf") format("truetype");
+    font-family: Rockwell;
+    font-weight: bold;
+    src: url("../fonts/Rockwell.ttf") format("truetype");
 }
 
 body {
-	font-family: Arial, sans-serif;
-	color: rgb(119, 119, 119);
-	font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: rgb(119, 119, 119);
+    font-size: 18px;
 }
 
 li > a {
-	color: rgb(60, 124, 149);
-	font-size: 32px;
-	text-transform: uppercase;
+    color: rgb(60, 124, 149);
+    font-size: 32px;
+    text-transform: uppercase;
 }
 
 ol > li {
-	list-style: decimal;
+    list-style: decimal;
 }
 
 h1 {
-	font-size: 50px;
-	color: rgb(44, 44, 44);
-	text-align: center;
-	text-decoration: underline;
-	text-shadow: 10px -10px 30px rgb(168, 168, 168);
-	text-transform: uppercase;
+    font-size: 50px;
+    color: rgb(44, 44, 44);
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 10px -10px 30px rgb(168, 168, 168);
+    text-transform: uppercase;
 }
 
 h2 {
-	font-size: 30px;
-	color: rgb(70, 70, 70);
+    font-size: 30px;
+    color: rgb(70, 70, 70);
 }
 
 h3 {
-	font-size: 20px;
-	color: rgb(83, 83, 83);
+    font-size: 20px;
+    color: rgb(83, 83, 83);
 }
 
 ol > li > a {
-	font-size: 20px;
-	color: rgb(83, 83, 83);
-	text-transform: none;
-	text-decoration: underline;
+    font-size: 20px;
+    color: rgb(83, 83, 83);
+    text-transform: none;
+    text-decoration: underline;
 }
 
 .garamond-font {
-	font-family: "EB Garamond", serif;
+    font-family: "EB Garamond", serif;
 }
 
 .times-new-roman-font {
-	font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .libre-bodoni {
-	font-family: "LibreBodoni", serif;
+    font-family: "LibreBodoni", serif;
 }
 
 .rockwell-font {
-	font-family: "Rockwell", serif;
+    font-family: "Rockwell", serif;
 }

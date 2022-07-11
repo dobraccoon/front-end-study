@@ -1,54 +1,54 @@
 @import "null.css";
 
 @font-face {
-	font-family: Roboto-Regular;
-	font-weight: normal;
-	src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+    font-family: Roboto-Regular;
+    font-weight: normal;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: Roboto-Black;
-	font-weight: bold;
-	src: url("../fonts/Roboto/Roboto-Black.ttf") format("truetype");
+    font-family: Roboto-Black;
+    font-weight: bold;
+    src: url("../fonts/Roboto/Roboto-Black.ttf") format("truetype");
 }
 
 body {
-	background-color: #F5F5F5;
+    background-color: #F5F5F5;
 }
 
 .wrapper {
-	max-width: 1200px;
-	margin: 36px 210px 66px 210px;
+    max-width: 1200px;
+    margin: 36px 210px 66px 210px;
 }
 
 .white-service-block {
-	max-width: 324px;
-	min-height: 340px;
-	background-color: #FFFFFF;
-	margin: 0px 24px 24px 0px;
-	padding: 50px 44px 50px 43px;
+    max-width: 324px;
+    min-height: 340px;
+    background-color: #FFFFFF;
+    margin: 0px 24px 24px 0px;
+    padding: 50px 44px 50px 43px;
 }
 
 .inner-service-block > img {
-	display: block;
-	margin: 0px 86px 0px 88px;
+    display: block;
+    margin: 0px 86px 0px 88px;
 }
 
 .inner-service-block > h2 {
-	margin: 33px 0px 0px 0px;
-	font-family: "Roboto-Black", sans-serif;
-	font-size: 19px;
-	line-height: 26px;
-	text-align: center;
-	color: #02133C;
+    margin: 33px 0px 0px 0px;
+    font-family: "Roboto-Black", sans-serif;
+    font-size: 19px;
+    line-height: 26px;
+    text-align: center;
+    color: #02133C;
 }
 
 .inner-service-block > p {
-	font-family: "Roboto-Regular", sans-serif;
-	font-size: 16px;
-	margin: 20px 0px 0px 0px;
-	text-align: center;
-	line-height: 24px;
-	letter-spacing: 0.15px;
-	color: #4B4B4B;
+    font-family: "Roboto-Regular", sans-serif;
+    font-size: 16px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
 }

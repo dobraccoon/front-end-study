@@ -1,40 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap");
 
 @font-face {
-  font-family: Lato-Regular;
-  font-weight: normal;
-  src: url("../fonts/Lato-Regular.ttf");
+    font-family: Lato-Regular;
+    font-weight: normal;
+    src: url("../fonts/Lato-Regular.ttf");
 }
 
 body {
-  font-family: "Lato-Regular", sans-serif;
-  font-style: normal;
-  line-height: 160%;
-  color: #424551;
+    font-family: "Lato-Regular", sans-serif;
+    font-style: normal;
+    line-height: 160%;
+    color: #424551;
 }
+
 h1 {
-  font-style: normal;
-  font-weight: 900;
-  font-size: 46px;
-  line-height: 130%;
-  color: #424551;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #424551;
 }
 
 .bold-text {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 150%;
-  color: #1e212c;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1e212c;
 }
 
 .second-block {
-  font-size: 16px;
-  line-height: 160%;
+    font-size: 16px;
+    line-height: 160%;
 }
 
 .bold-block {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 150%;
-  color: #1e212c;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1e212c;
 }
